@@ -1,0 +1,21 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 149, 0);
+    color: white;
+    text-align: center;
+    height: 2.5rem;
+    align-items: center;
+ }
+
+ .textFooter{
+    padding: 0.7rem;
+ }
+
+ @media only screen and (max-width: 381px){
+   .textFooter{
+      font-size: smaller;
+   }
+ }

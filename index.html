@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Page Title</title>
+</head>
+
+<body>
+    <div class="header"></div>
+
+    <h1 class="title">Welcome to my page <br>
+        <img src="images/cat.jpg">
+    </h1>
+
+    <div class="footer"></div>
+</body>
+
+</html>
+
+<script>
+    $(function () {
+        $(".header").load("header.html");
+    });
+
+    $(function () {
+        $(".footer").load("footer.html");
+    });
+</script>
